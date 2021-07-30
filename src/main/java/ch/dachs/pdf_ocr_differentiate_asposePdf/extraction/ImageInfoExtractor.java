@@ -9,8 +9,7 @@ import ch.dachs.pdf_ocr_differentiate_asposePdf.core.ImageInfo;
 import lombok.RequiredArgsConstructor;
 
 /**
- * Extension of PDFStreamEngine class. It finds real images and extracts
- * information about them.
+ * Extracts image information.
  * 
  * @author Szőke Attila
  */

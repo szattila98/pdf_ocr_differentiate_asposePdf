@@ -5,7 +5,7 @@ import com.aspose.pdf.Rectangle;
 import lombok.Data;
 
 /**
- * Represents a line of text stripped from the pdf.
+ * Represents a line of text stripped from a PDF.
  * 
  * @author Szőke Attila
  */
@@ -17,6 +17,13 @@ public class TextLine {
 	private double yPosition;
 	private int renderingMode;
 
+	/**
+	 * Default constructor of TextLine.
+	 * 
+	 * @param text          the text itself
+	 * @param textRectangle the rectangle of the text fragment
+	 * @param renderingMode the text rendering mode
+	 */
 	public TextLine(String text, Rectangle textRectangle, int renderingMode) {
 		this.text = text;
 		this.firstCharacterXPosition = textRectangle.getLLX();

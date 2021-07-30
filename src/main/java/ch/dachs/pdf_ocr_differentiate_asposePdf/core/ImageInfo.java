@@ -4,7 +4,7 @@ import lombok.AllArgsConstructor;
 import lombok.Data;
 
 /**
- * Represents and image dimensions.
+ * Represents an image's dimensions.
  * 
  * @author Szőke Attila
  */
